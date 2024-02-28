@@ -9,7 +9,6 @@ module "numbers" {
 
 module "random_password" {
   source  = "./random_password"
-  version = "0.1.0"
 
   # Optional inputs 
   # password_length           = number
