@@ -8,7 +8,7 @@ module "numbers" {
 # }
 
 module "random_password" {
-  source  = "spacelift.io/saturnhead/random_password/default"
+  source  = "./random_password"
   version = "0.1.0"
 
   # Optional inputs 
